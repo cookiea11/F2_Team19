@@ -1,0 +1,20 @@
+name: Verify routing prototype
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test simulator and HTTP API
+        run: python -m unittest -v
+      - name: Reproduce one seed of all scenarios
+        run: python experiments.py --seeds 1 --out ci-results
+      - uses: actions/upload-artifact@v4
+        with:
+          name: F2_Team19_TestResults
+          path: ci-results/

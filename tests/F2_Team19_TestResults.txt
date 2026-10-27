@@ -1,0 +1,19 @@
+test_dashboard_and_offline_data_served (test_http.HTTPTests.test_dashboard_and_offline_data_served) ... ok
+test_invalid_config_returns_400 (test_http.HTTPTests.test_invalid_config_returns_400) ... ok
+test_real_simulation_post (test_http.HTTPTests.test_real_simulation_post) ... ok
+test_unknown_path_cannot_read_source (test_http.HTTPTests.test_unknown_path_cannot_read_source) ... ok
+test_all_selected_routes_are_acyclic (test_simulator.SimulatorTests.test_all_selected_routes_are_acyclic) ... ok
+test_ewma_and_horizon (test_simulator.SimulatorTests.test_ewma_and_horizon) ... ok
+test_hysteresis_retains_nearly_equal_route (test_simulator.SimulatorTests.test_hysteresis_retains_nearly_equal_route) ... ok
+test_identical_offered_workload (test_simulator.SimulatorTests.test_identical_offered_workload) ... ok
+test_invalid_api_config (test_simulator.SimulatorTests.test_invalid_api_config) ... ok
+test_packet_and_energy_conservation (test_simulator.SimulatorTests.test_packet_and_energy_conservation) ... ok
+test_prediction_changes_an_equal_battery_choice (test_simulator.SimulatorTests.test_prediction_changes_an_equal_battery_choice) ... ok
+test_reproducible (test_simulator.SimulatorTests.test_reproducible) ... ok
+test_serializable_without_nonfinite_numbers (test_simulator.SimulatorTests.test_serializable_without_nonfinite_numbers) ... ok
+test_stale_observations_rejected (test_simulator.SimulatorTests.test_stale_observations_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.900s
+
+OK

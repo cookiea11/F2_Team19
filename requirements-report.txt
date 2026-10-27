@@ -1,0 +1,4 @@
+# Optional: regenerating the PDF report and quantitative figures.
+reportlab>=4,<5
+matplotlib>=3.8,<4
+numpy>=1.26,<3

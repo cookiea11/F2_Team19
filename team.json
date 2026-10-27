@@ -1,0 +1,22 @@
+{
+  "slot": "F2",
+  "team_number": 19,
+  "prefix": "F2_Team19",
+  "course": "BCSE308P Computer Networks Lab",
+  "semester": "Fall Semester 2026-2027",
+  "title": "Predictive Adaptive Mesh Routing Protocol for Energy-Constrained IoT Networks",
+  "members": [
+    {
+      "name": "Siddhi Gulati",
+      "register_number": "24BCE0817"
+    },
+    {
+      "name": "Harshitha Nethi",
+      "register_number": "24BCT0084"
+    },
+    {
+      "name": "Saamiya Siddique",
+      "register_number": "24BKT0146"
+    }
+  ]
+}

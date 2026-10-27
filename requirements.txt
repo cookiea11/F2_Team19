@@ -1,0 +1,2 @@
+# The simulator, local dashboard server, and unit tests use only Python's standard library.
+# Requires Python 3.10 or later. No runtime packages to install.

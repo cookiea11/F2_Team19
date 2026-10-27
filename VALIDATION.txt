@@ -1,0 +1,4 @@
+14 automated simulator and HTTP tests pass. Full output is in tests/F2_Team19_TestResults.txt.
+A programmatic DOM harness checked the initial dashboard, strategy switching, slider, node inspection, exports, play/pause, and a live API call during prototype development. Actual browser layout and screenshots remain to be checked with scripts/capture_screenshots.py on the presentation laptop.
+Report pages were rendered and visually inspected. The PPTX is validated and previews inspected before delivery. The PDF embeds a Times-compatible substitute rather than literal Times New Roman; see the formatting note.
+No real GitHub repository URL was created or externally verified here.
