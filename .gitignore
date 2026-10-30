@@ -9,3 +9,6 @@ Thumbs.db
 .idea/
 .vscode/
 *.log
+
+# Local captures are embedded in the presentation before submission.
+screenshots/

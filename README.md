@@ -424,36 +424,15 @@ These are descriptive synthetic results. No formal statistical-significance, opt
 
 Plots in `results/figures/` are measurement figures, not dashboard screenshots. Regenerating experiment CSVs does not automatically update the saved report or presentation.
 
-## 12. Dashboard Screenshots
+## 12. Dashboard Screenshots in the Presentation
 
-Include genuine captures demonstrating the implemented functionality.
+Add genuine dashboard captures to `docs/F2_Team19_PPT.pptx` before submission.
+Include the default network, comparison results, relay failure, and a parameter
+change. Review their inclusion and readability manually.
 
-| Filename | View |
-| --- | --- |
-| `F2_Team19_Dashboard.png` | Default network after a fresh run |
-| `F2_Team19_Results.png` | Final comparison table and graphs |
-| `F2_Team19_RelayFailure.png` | Failure scenario at the end of the run |
-| `F2_Team19_ParameterChange.png` | Fresh run after changing a parameter |
-
-Manual browser screenshots are sufficient. Save them inside `screenshots/`.
-
-Optional automated capture:
-
-```bash
-python -m pip install -r requirements-evidence.txt
-python -m playwright install chromium
-python scripts/capture_screenshots.py
-```
-
-The script starts a temporary server and captures five browser views. It requires a compatible browser runtime. If unavailable, use manual screenshots from the working browser.
-
-Upload the evidence:
-
-```bash
-git add screenshots/
-git commit -m "Add dashboard evidence for project evaluation"
-git push
-```
+There is no separately tracked screenshots folder. The optional
+`scripts/capture_screenshots.py` helper generates local captures in `screenshots/`,
+which is ignored by Git. Embed the captures in the presentation and commit the PPTX.
 
 ## 13. Repository Organization
 
@@ -465,7 +444,6 @@ git push
 | `static/` | Complete dashboard and offline example |
 | `simulation/` | Saved configuration and topology |
 | `results/` | Raw results, summaries, demonstration data, and graphs |
-| `screenshots/` | Dashboard screenshots and capture instructions |
 | `test_simulator.py` | Simulator correctness checks |
 | `test_http.py` | HTTP integration checks |
 | `tests/` | Recorded test output |
@@ -504,16 +482,16 @@ The repository includes source and supporting resources rather than screenshots 
 
 ```bash
 python -m unittest -v
-python scripts/check_submission.py --strict
+python scripts/check_submission.py
 ```
 
-The submission checker verifies selected files, result-row counts, slide count, and the presence of at least four named PNG files. It does not assess screenshot content, typography, signatures, GitHub permissions, or VTOP submission status.
+The submission checker verifies selected files, result-row counts, and slide count. It does not assess screenshot content, typography, signatures, GitHub permissions, or VTOP submission status.
 
 Before submission:
 
 - Verify execution on the presentation laptop.
 - Demonstrate baseline versus proposed routing and a live parameter change.
-- Inspect and commit actual screenshots.
+- Add genuine dashboard screenshots to the presentation, inspect them, and commit the PPTX.
 - Review the report and add signatures where required.
 - Check exact report typography.
 - Open and inspect every presentation slide.
@@ -536,7 +514,7 @@ The supplied PDF embeds **Nimbus Roman**, a Times-compatible substitute. For exa
 | Input rejected | Use 8–100 sensors, duration 50–2000 seconds, horizon within duration, traffic in (0, 0.5], and alpha in (0, 1] |
 | Route disappears | Inspect failures, stale observations, queues, and TTL |
 | Screenshot browser fails to launch | Take manual screenshots from the working browser |
-| Submission check reports missing images | Add at least four genuine `F2_Team19_*.png` screenshots |
+| Dashboard evidence pending | Add and manually inspect genuine screenshots in the presentation |
 
 ## 16. Limitations and Future Work
 

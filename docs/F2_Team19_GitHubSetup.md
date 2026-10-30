@@ -8,10 +8,10 @@ here, so no remote repository or verified URL is claimed.
 1. Sign in to your GitHub account and create a repository named F2_Team19.
 2. Choose public visibility only if your team is comfortable publishing its names,
    register numbers, source, and report. If private, grant the faculty access.
-3. Extract F2_Team19_SourceCode.zip and generate the actual screenshots first.
-4. Upload the folder contents, including source, docs, results, simulation, and screenshots.
+3. Extract F2_Team19_SourceCode.zip and add actual dashboard screenshots to the presentation first.
+4. Upload the folder contents, including source, docs, results, and simulation.
 5. Confirm README.md and app.py are at the repository root. Open the report,
-   presentation, simulation configuration, and screenshots through GitHub.
+   presentation (including its dashboard screenshots) and simulation configuration through GitHub.
 6. Copy the actual repository URL into VTOP Assignment 10 after access verification.
 
 ## Git method
@@ -35,10 +35,10 @@ if Git prompts for it.
 Verify signed-out access for a public repository or the correct faculty account's
 access for a private repository. Do not submit a guessed URL or an empty repository.
 
-After screenshot capture:
+After adding screenshots to the presentation:
 
 ```sh
-git add screenshots
-git commit -m "Add real dashboard screenshots"
+git add docs/F2_Team19_PPT.pptx
+git commit -m "Add dashboard screenshots to presentation"
 git push
 ```

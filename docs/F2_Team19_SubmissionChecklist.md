@@ -18,7 +18,7 @@
 ## Complete before submitting
 
 - [ ] Run the dashboard on the presentation laptop.
-- [ ] Generate actual dashboard screenshots and commit them.
+- [ ] Add actual dashboard screenshots to docs/F2_Team19_PPT.pptx and verify their readability.
 - [ ] Review the report and fill signatures only where required.
 - [ ] Verify literal Times New Roman compliance. The PDF embeds Nimbus Roman,
   a Times-compatible substitute, because Times New Roman was unavailable here.
